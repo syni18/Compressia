@@ -1,0 +1,35 @@
+# Dependencies
+/node_modules
+
+# Build Output
+/.next
+/out
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage
+
+# Video Compression Specific (Optional)
+*.mp4  # Ignore sample video files
+*.mov  # Ignore raw video files
+/compressed  # Ignore output folder for compressed videos
+
+#history
+.history
+.idea
+.vscode
